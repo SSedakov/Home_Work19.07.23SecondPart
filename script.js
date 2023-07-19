@@ -9,6 +9,7 @@ picture.addEventListener('click',getImg);
 function getImg () {
   let response = fetch(url2);
 
+  
   response.then((respons) => {
    let llink = respons.json();
    llink.then((res) => {
